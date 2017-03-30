@@ -50,7 +50,29 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+"kitchen": {
+  "cupboard":     {
+    "bowls",
+    "plates"
+  }
+  "electric stove": {
+    "small heating element",
+    "medium heating element",
+    "large heating element",
+    "extra large heating element"
+    }
+  "herbs and spices": {
+    "rack 1": {
+      "chives",
+      "lemon grass",
+      "mint"
+    "rack 2":  {
+      "cinammon",
+      "nutmeg",
+      "vanilla"
+  }}
+  }
+  }}
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +84,34 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+{"kitchen": {
+  "cupboard":     {
+    "bowls",
+    "plates"
+  }
+  "electric stove": {
+    "small heating element",
+    "medium heating element",
+    "large heating element",
+    "extra large heating element"
+    }
+  "herbs and spices": {
+    "rack 1": {
+      "chives",
+      "lemon grass",
+      "mint"
+    "rack 2":
+      "cinammon",
+      "nutmeg",
+      "vanilla"
+  }
+  "apple basket": {
+    "Fuji":  2,
+    "Gala":  7,
+    "Golden Delicious": 1
+  }
+  }
+  }}
 ```
 
 ## JSON Methods
@@ -70,7 +119,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No.  JSON is comprised of strings only; no methods.
 ```
 
 ## JSON Comments
@@ -78,5 +127,6 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No.  From what I've read online, comments would essentially become data
+data.  That is not best practice.
 ```
